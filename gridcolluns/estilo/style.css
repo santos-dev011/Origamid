@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  margin-top: 0px;
+}
+
+.comprar {
+  border-radius: 4px;
+  text-decoration: none;
+  color: #103;
+  background: #a8f;
+  padding: 10px 20px;
+}
+
+.item {
+  display: grid;
+  background: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  
+  justify-content: center;
+}
