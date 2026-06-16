@@ -30,3 +30,9 @@ img{
   word-break: break-all;
   max-width: 4ch;
 }
+@media (max-width:800px) {
+  .subtitulo{
+    font-size: 6rem;
+    max-width: 11ch;
+  }
+}

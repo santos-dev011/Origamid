@@ -2,7 +2,7 @@
 .experiencia{
   max-width: 1200px;
   padding: 40px 20px;
-  margin: 0 auto;
+  margin: 10px auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 100px;
@@ -83,4 +83,14 @@
   background: #ffffff;
   padding: 5px 10px;
   margin: 5px 0;
+}
+
+@media (max-width:800px) {
+ .experiencia{
+  grid-template-columns: 1fr;
+ } 
+ .empresa-ano{
+  top: 0px;
+  left: -7px;
+ }
 }
