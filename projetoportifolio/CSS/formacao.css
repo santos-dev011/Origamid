@@ -49,6 +49,7 @@
   margin-bottom: 60px;
 }
 .faculdade{
+  display: flex;
   flex: 1;
   background: #000000;
   padding: 20px;
@@ -57,7 +58,7 @@
 }
 
 .faculdade-tipo{
-
+  flex: 1;
   font-size: 0.875rem;
   text-transform: uppercase;
   color: #a3a3a3;
@@ -65,12 +66,13 @@
 }
 
 .faculdade-curso{
+  flex: 1;
   font-size: 1.125rem;
   line-height: 1.4;
   margin-bottom: 40px;
   position: relative;
-  flex: 1;
 }
+
 .faculdade-curso::before{
   content: "";
   display: block;
@@ -81,6 +83,7 @@
   left: -24px;
 }
 .faculdade-intituicao{
+  
   font-size: 1.125rem;
   color: #a3a3a3;
 }
