@@ -83,7 +83,7 @@
   left: -24px;
 }
 .faculdade-intituicao{
-  
+  flex: 1;
   font-size: 1.125rem;
   color: #a3a3a3;
 }
