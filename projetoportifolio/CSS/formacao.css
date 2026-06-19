@@ -139,6 +139,8 @@
     gap: 40px;
   }
   .formacao .subtitulo{
+    max-width: 8ch;
+    
     color: #ffffff;
   }
   .formacao-texto{
