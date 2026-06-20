@@ -8,7 +8,6 @@
   gap: 100px;
 
 }
-
 .experiencia .subtitulo{
   color: #e0e0e0;
 }
@@ -19,13 +18,10 @@
   line-height: 1.125;
   margin-bottom: 60px;
 }
-
 .experiencia-texto strong{
   color: #141414;
 }
-
 .empresa{
-  
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 20px;
@@ -49,9 +45,7 @@
   background: #dddddd;
   border: 2px solid #141414;
 }
-
 .empresa-ano{
-  
   text-align: right;
   color: #525252;
   font-size: 0.875rem;
@@ -70,7 +64,6 @@
   line-height: 1.4;
   color: #525252;
 }
-
 .empresa-habilidades{
   display: flex;
   flex-wrap: wrap;
@@ -85,7 +78,6 @@
   padding: 5px 10px;
   margin: 5px 0;
 }
-
 @media (max-width:800px) {
  .experiencia{
   grid-template-columns: 1fr;
@@ -101,6 +93,4 @@
   order: 1;
   text-align: left;
  }
- 
-
 }
